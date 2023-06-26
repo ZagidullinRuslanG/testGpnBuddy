@@ -4,15 +4,9 @@ from enum import Enum
 
 class PredictorEngine:
 
-    def __init__(self, model, device):
-        if model is None:
-            model = Model.Codegen2_1.value
-
-        if device is None:
-            device = "cpu"
-
-        self.model = model
-        self.device = device
+    def __init__(self):
+        self.model = Model.Codegen2_1
+        self.device = "cpu"
 
     def predict(self, text):
         tokenizer = AutoTokenizer.from_pretrained(self.model)

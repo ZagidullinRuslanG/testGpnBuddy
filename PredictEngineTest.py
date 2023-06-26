@@ -3,9 +3,9 @@ import unittest
 from predictorEngine import PredictorEngine
 
 
-class PredictorEngineWithoutParameters(unittest.TestCase):
+class PredictorEngineTest(unittest.TestCase):
     def test_something(self):
-        engine = PredictorEngine(None, None)
+        engine = PredictorEngine()
         result = engine.predict("public bool IsStringWithUniqueSymbols(")
         print(result)
         self.assertIsNotNone(result)
