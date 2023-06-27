@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gpncopilot"
-version = "1.5.1"
+version = "0.1.0"
 description = ""
 authors = ["Kirill <nazarov1995@icloud.com>"]
 readme = "README.md"
