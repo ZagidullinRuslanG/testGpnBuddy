@@ -18,6 +18,7 @@ class PredictorEngine:
 
     @staticmethod
     def __get_model(model_type: str):
+        """ Получение модели по типу. """
         return {
             'Codegen2_1': 'Salesforce/codegen2-1B',
             'Codegen2_3': 'Salesforce/codegen2-3_7B',
