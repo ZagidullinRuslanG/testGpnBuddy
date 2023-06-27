@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gpncopilot"
+version = "1.5.1"
+description = ""
+authors = ["Kirill <nazarov1995@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.22.0"
+fastapi = "^0.98.0"
+torch = "^2.0.1"
+transformers = "^4.30.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

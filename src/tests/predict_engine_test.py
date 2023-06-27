@@ -1,6 +1,6 @@
 import unittest
 
-from predictorEngine import PredictorEngine
+from src.calculations.predictor_engine import PredictorEngine
 
 
 class PredictorEngineTest(unittest.TestCase):
