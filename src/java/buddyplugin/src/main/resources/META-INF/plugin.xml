@@ -1,0 +1,24 @@
+<idea-plugin>
+    <id>com.evdokimoval.plugin</id>
+    <name>Plugin display name here</name>
+    <vendor email="artem_evdokimov_1992@mail.ru">evdokimoval</vendor>
+
+    <description><![CDATA[
+    Tweets any selected text in the editor.
+    ]]></description>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.all</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="BuddyAction" class="BuddyAction" text="Buddy Action" description="Test Action">
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl BACK_SLASH" second-keystroke="ctrl T"/>
+        </action>
+    </actions>
+</idea-plugin>
