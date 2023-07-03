@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
-from src.models.models import PredictRequest, PredictResponse
-from src.calculations.predictor_engine import PredictorEngine
+from models.models import PredictRequest, PredictResponse
+from calculations.predictor_engine import PredictorEngine
 
 predictor_router = APIRouter(prefix="/predictor", tags=["Predictor"])
 

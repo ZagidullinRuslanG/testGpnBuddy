@@ -6,11 +6,10 @@ class PredictRequest(BaseModel):
 
     class Config:
         schema_extra = {
-            "example": [
+            "example":
                 {
                     "code": "public bool IsStringWithUniqueSymbols(",
                 }
-            ]
         }
 
 
