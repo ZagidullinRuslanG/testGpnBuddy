@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>com.evdokimoval.plugin</id>
-    <name>Plugin display name here</name>
+    <name>Buddy plugin</name>
     <vendor email="artem_evdokimov_1992@mail.ru">evdokimoval</vendor>
 
     <description><![CDATA[
